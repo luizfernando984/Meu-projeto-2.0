@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #444;
+    color:#fff;
+}
+
+#contendo{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+header{
+    height: 150px;
+    background: #000;
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav{
+    background: #000;
+    height: 60px;
+}
+nav h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+#conteudo{
+    width: 650px;
+    height: 900px;
+    float: left;
+    background:  #444;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#conteudo h2{
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+}
+#conteudo h2 p {
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+
+}
+#conteudo ul {
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px; 
+}
+
+#conteudo ol {
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+aside {
+    width: 300px;
+    height: 900px;
+    background:  #444;
+    margin-top: 10px;
+    float: right;
+}
+aside h2{
+    font-size: 30px;
+    text-align: left;
+    line-height: 30px;
+
+}
+footer{
+    background:  #444;
+    clear: both;
+}
+footer h2{
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 150px;
+    color: #8b8b8b;
+    height: 30px ;  
+}
+.menu ul li a:hover {
+color: #00bac6;
+}
+.menu ul li :hover{
+    border-bottom: 2px solid #00bac6;
+
+}
+.menu ul li a {
+    color: #8b8b8b;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
